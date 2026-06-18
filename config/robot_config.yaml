@@ -1,7 +1,8 @@
 robot:
   type: "piper"
+  usd_path: "atec_robot_model/robot/piper/piper.usd"
   end_effector:
-    prim_path: "/World/robot/gripper_base"
+    prim_path: "/World/envs/env_0/Robot/gripper_base"
     frame_name: "gripper_base"
   gripper:
     open_position: [0.035, -0.035]
@@ -9,6 +10,5 @@ robot:
     max_force: 100.0
     force_threshold: 5.0
   motion:
-    rmp_config_path: "/Isaac/Robots/AgileX/Piper/rmpflow_config.yaml"
-    robot_description_path: "/Isaac/Robots/AgileX/Piper/piper_description.urdf"
-    robot_usd_path: "/Isaac/Robots/AgileX/Piper/piper.usd"
+    rmp_config_path: "atec_robot_model/robot/piper/rmpflow_config.yaml" # Assuming it exists there or needs creation
+    robot_description_path: "atec_robot_model/robot/piper/piper_description.urdf"
