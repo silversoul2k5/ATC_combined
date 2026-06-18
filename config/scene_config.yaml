@@ -1,0 +1,10 @@
+scene:
+  num_objects: 3
+  table_center: [1.0, 0.0, 0.0]
+  table_size: [0.65, 0.91, 0.66]
+  basket_position: [1.08, -0.30, 0.74]
+  basket_size: [0.4, 0.3, 0.2]
+  physics:
+    dt: 0.01667
+  detection:
+    confidence_threshold: 0.8

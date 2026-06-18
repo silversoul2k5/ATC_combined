@@ -1,0 +1,14 @@
+robot:
+  type: "piper"
+  end_effector:
+    prim_path: "/World/robot/gripper_base"
+    frame_name: "gripper_base"
+  gripper:
+    open_position: [0.035, -0.035]
+    closed_position: [-0.015, 0.015]
+    max_force: 100.0
+    force_threshold: 5.0
+  motion:
+    rmp_config_path: "/Isaac/Robots/AgileX/Piper/rmpflow_config.yaml"
+    robot_description_path: "/Isaac/Robots/AgileX/Piper/piper_description.urdf"
+    robot_usd_path: "/Isaac/Robots/AgileX/Piper/piper.usd"
